@@ -1,6 +1,6 @@
 <h1>Qualitative Society Lab</h1>
 <p><strong>Dr. Fariborz Aref</strong><br>
-Dual Ph.D. in Sociology and Community Development</p>
+
 
 <hr>
 
