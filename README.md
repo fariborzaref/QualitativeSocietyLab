@@ -1,5 +1,5 @@
 <h1>Qualitative Society Lab</h1>
-<p><strong>Fariborz Aref</strong><br>
+<p><strong>Dr. Fariborz Aref</strong><br>
 
 
 <hr>
