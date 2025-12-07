@@ -63,7 +63,7 @@ This repository operates in parallel with <em>Quantitative Society Lab</em>, for
 Together, they provide full coverage from interpretive depth to statistical precision in sociological and policy research.
 </p>
 <p>
-External reference (add your repository link): 
+External reference: 
 <a href="https://github.com/fariborzaref/QuantitativeSocietyLab">Quantitative Society Lab</a>
 </p>
 
