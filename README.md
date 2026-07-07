@@ -1,90 +1,59 @@
-<h1>Qualitative Society Lab</h1>
-<p><strong>Dr. Fariborz Aref</strong><br>
+# QualitativeSocietyLab
 
+**Interpretive Methods for Social and Policy Research**
 
-<hr>
+Fariborz Aref, PhD · [fariborzaref.com](https://fariborzaref.com) · ORCID [0000-0001-6622-1824](https://orcid.org/0000-0001-6622-1824)
 
-<h2>Overview</h2>
-<p>
-The Qualitative Society Lab is a structured research environment focused on advanced qualitative inquiry in sociology.
-It integrates interpretive methods with systematic rigor to produce replicable, publication-grade analyses. Materials
-include frameworks, codebooks, and documentation for interviews, focus groups, and institutional discourse analysis.
-Each module is organized for replication, graduate instruction, and integration with mixed and computational methods.
-</p>
+---
 
-<h2>Repository Structure</h2>
-<pre>
-QualitativeSocietyLab/
-│
-├── Focus_Groups/
-│   ├── NVivo_Project_FocusGroups.nvp
-│   ├── Codebook.pdf
-│   ├── README.md
-│
-├── In_Depth_Interviews/
-│   ├── Transcripts_Sample.pdf
-│   ├── Thematic_Analysis_Guide.docx
-│   ├── README.md
-│
-├── Institutional_Discourse/
-│   ├── Text_Corpus.zip
-│   ├── Discourse_Analysis_Steps.pdf
-│   ├── README.md
-│
-└── README.md
-</pre>
+## Purpose
 
-<h2>Core Modules</h2>
+Weber called it *Verstehen*: the recognition that social action cannot be explained without being understood from within. A regression can establish that welfare recipients distrust institutions; only sustained interpretive work can establish what that distrust means, how it is narrated, and why it persists. The qualitative tradition is not the soft counterpart of measurement. It is the discipline of making meaning-claims answerable to evidence.
 
-<h3>1. Focus Groups</h3>
-<ul>
-  <li>NVivo project files, codebooks, and theme matrices for analyzing collective narratives.</li>
-  <li>Emphasis on power dynamics, consensus formation, and structured dissent.</li>
-</ul>
-<p><a href="./Focus_Groups/">Open folder</a></p>
+This repository is the interpretive companion to [QuantitativeSocietyLab](https://github.com/fariborzaref/QuantitativeSocietyLab). It documents the instruments, protocols, and analytic frameworks behind my research on inequality, welfare institutions, and organizational discourse, and it is built for three audiences: researchers seeking transparent method documentation, graduate students learning systematic qualitative analysis, and collaborators integrating interpretive evidence with statistical models. Materials are released in stages as the underlying studies are completed.
 
-<h3>2. In-Depth Interviews</h3>
-<ul>
-  <li>Semi-structured protocols, thematic analysis templates, and exemplar transcripts.</li>
-  <li>Supports inductive and deductive coding; compatible with NVivo and alternative toolchains.</li>
-</ul>
-<p><a href="./In_Depth_Interviews/">Open folder</a></p>
+## A Note on What Is Shared
 
-<h3>3. Institutional Discourse Analysis</h3>
-<ul>
-  <li>Institutional text corpora and stepwise discourse analysis framework.</li>
-  <li>Outputs designed for interoperability with Text_Network and computational extensions.</li>
-</ul>
-<p><a href="./Institutional_Discourse/">Open folder</a></p>
+No participant data appears in this repository. Interview transcripts, focus group recordings, and derived NVivo projects contain confidential material governed by consent agreements and institutional review, and they are not suitable for public archiving. What is shared instead is the methodological apparatus: interview protocols, focus group guides, coding frameworks, codebook templates, analysis procedures, and worked exemplars constructed from synthetic or public-domain text. This is the material replication actually requires, and it can be shared without compromising the people who made the research possible.
 
-<h2>Methodological Integration</h2>
-<p>
-This repository operates in parallel with <em>Quantitative Society Lab</em>, forming a dual-method ecosystem.
-Together, they provide full coverage from interpretive depth to statistical precision in sociological and policy research.
-</p>
-<p>
-External reference: 
-<a href="https://github.com/fariborzaref/QuantitativeSocietyLab">Quantitative Society Lab</a>
-</p>
+## The Analytical Program
 
-<h2>Usage Guidance</h2>
-<ol>
-  <li>Clone or download the repository.</li>
-  <li>Open the relevant module folder and review its internal <code>README.md</code> for execution steps and documentation.</li>
-  <li>Maintain file naming discipline (e.g., <code>Syllabus_Spring2025.pdf</code>, <code>Protocol_v2.docx</code>) to ensure reproducibility.</li>
-</ol>
+**In-Depth Interviews.** Semi-structured protocols and thematic analysis frameworks for studying how individuals narrate class position, institutional encounters, and economic insecurity. The documentation supports both inductive coding and theory-driven deductive schemes, and is compatible with NVivo and open alternatives.
 
-<h2>License</h2>
-<p>
-MIT License. Materials may be used and adapted for academic and non-commercial purposes with citation.
-</p>
+**Focus Groups.** Guides and analytic matrices for collective settings, where the object of study is not the individual account but the interaction: consensus formation, structured dissent, and the small politics of who speaks for whom.
 
-<h2>Citation</h2>
-<p>
-Aref, Fariborz. <em>Qualitative Society Lab</em>. GitHub Repository, 2025.
-</p>
+**Institutional Discourse Analysis.** Stepwise frameworks for analyzing the texts institutions produce about themselves: policy documents, reports, mission statements. This module is designed to interoperate with the computational text methods of the quantitative repository, so that close reading and corpus-scale analysis can discipline one another.
 
-<hr>
+## Methodological Integration
 
+The two repositories are built on a single premise: that explanation in social science requires both the pattern and its meaning. Statistical models establish regularities across cases; interpretive analysis establishes the mechanisms and self-understandings that produce them. Neither is auxiliary to the other. The frameworks here are therefore written to align with the models in QuantitativeSocietyLab, sharing conceptual definitions, sampling logic, and reporting standards.
 
+## Planned Architecture
+
+Modules will be added as the corresponding studies conclude:
+
+```
+/Interview_Protocols      Semi-structured guides and consent-safe documentation templates
+/Focus_Group_Frameworks   Moderation guides, coding matrices, interaction analysis notes
+/Discourse_Analysis       Stepwise procedures and exemplar analyses of institutional texts
+/Codebooks                Template codebooks and coding reliability documentation
+```
+
+## Toolchain
+
+`NVivo` · `Taguette` · `R (RQDA-successor workflows)` · `LaTeX` · `Git`
+
+Documentation is written so that the analytic reasoning, not merely the software operations, can be reconstructed by another researcher.
+
+## License
+
+Materials are released under [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/): free to use and adapt for academic and non-commercial purposes with attribution.
+
+## Citation
+
+Aref, F. (2026). *QualitativeSocietyLab: Interpretive methods for social and policy research*. GitHub. https://github.com/fariborzaref/QualitativeSocietyLab
+
+---
+
+§
 
